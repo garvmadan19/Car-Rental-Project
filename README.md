@@ -47,9 +47,9 @@ This module contains the core logic for the car rental system.
 ## Notes
 The current billing logic is incomplete/inconsistent across the different rental basis calculations in the provided code. 
 Please review and correct the logic in the returnCar method of mycar for accurate billing based on days/weeks.
-   - Hourly calculation: $rentalPeriod.seconds/3600*5*numOfCars
-   - Daily calculation: $rentalPeriod.days*20*numOfCars
-   - Weekly calculation: $rentalPeriod.days/7*60*numOfCars
+   - Hourly calculation: $rentalPeriod.seconds/3600\times5\timesnumOfCars
+   - Daily calculation: $rentalPeriod.days\times20\timesnumOfCars
+   - Weekly calculation: $rentalPeriod.days/7\times60\timesnumOfCars
 
 
 
